@@ -1,4 +1,0 @@
-execute if block ~ ~ ~ #minecraft:stairs[facing=east] at @s run setblock ~ ~ ~ minecraft:hopper[facing=east]{CustomName:'{"text":"Filter Hopper"}',TransferCooldown:8s} replace
-execute if block ~ ~ ~ #minecraft:stairs[facing=west] at @s run setblock ~ ~ ~ minecraft:hopper[facing=west]{CustomName:'{"text":"Filter Hopper"}',TransferCooldown:8s} replace
-execute if block ~ ~ ~ #minecraft:stairs[facing=south] at @s run setblock ~ ~ ~ minecraft:hopper[facing=south]{CustomName:'{"text":"Filter Hopper"}',TransferCooldown:8s} replace
-execute if block ~ ~ ~ #minecraft:stairs[facing=north] at @s run setblock ~ ~ ~ minecraft:hopper[facing=north]{CustomName:'{"text":"Filter Hopper"}',TransferCooldown:8s} replace

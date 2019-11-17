@@ -1,0 +1,1 @@
+execute if score #filter-cooldown# __shoukadp__ matches 0..1 run data merge block ~ ~ ~ {TransferCooldown:2s}
