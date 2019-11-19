@@ -1,14 +1,4 @@
 {
-	"display": {
-        "description": "",
-        "icon": {
-            "item": "minecraft:hopper"
-        },
-		"title": "",
-		"announce_to_chat": false,
-		"show_toast": false,
-        "hidden": true
-	},
 	"criteria": {
 		"filter-hopper": {
 			"trigger": "minecraft:placed_block",
@@ -22,8 +12,5 @@
 	},
 	"rewards": {
         "function": "filter-hopper:tasks/create"
-    },
-	"requirements": [
-		["filter-hopper"]
-	]
+    }
 }
